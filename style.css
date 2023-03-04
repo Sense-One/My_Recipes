@@ -1,11 +1,51 @@
-body {
+ body {
     font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+   
  }
 
- .image { 
-    background-image: url(../My_Recipes/img/background);
+ #container {
+    display: flex;
+    flex-direction: column;
+    height: 828px;
+    position: relative;
+ }
+
+ html {
+    background: url(img/background) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
  }
 
  h1 {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-weight: 870;
+    margin: 0;
+    padding: 10px;
+    background-color: #eeee;
  }
+
+ .recipes {
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    width: 400px;
+    height: 400px;
+ }
+
+ ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+ }
+
+ a {
+    color: black;
+    font-style: italic;
+    font-size: 30px;
+ }
+
