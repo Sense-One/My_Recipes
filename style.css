@@ -7,7 +7,7 @@
  #container {
     display: flex;
     flex-direction: column;
-    height: 828px;
+    height: 700px;
     position: relative;
  }
 
@@ -40,7 +40,7 @@
     list-style-type: none;
     display: flex;
     flex-direction: column;
-    gap: 100px;
+    gap: 90px;
  }
 
  a {
